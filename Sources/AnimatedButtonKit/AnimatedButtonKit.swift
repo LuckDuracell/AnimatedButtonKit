@@ -23,13 +23,25 @@ public struct AnimatedButton<Label: View>: View {
     public init(
         animation: ButtonAnimation,
         icon: String? = nil,
-        image: Image? = nil,
         action: @escaping () -> Void,
         @ViewBuilder label: @escaping (AnyView) -> Label
     ) {
         self.action = action
         self.animation = animation
         self.icon = icon
+        self.image = nil
+        self.label = label
+    }
+    
+    public init(
+        animation: ButtonAnimation,
+        image: Image,
+        action: @escaping () -> Void,
+        @ViewBuilder label: @escaping (AnyView) -> Label
+    ) {
+        self.action = action
+        self.animation = animation
+        self.icon = nil
         self.image = image
         self.label = label
     }
