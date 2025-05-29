@@ -2,7 +2,7 @@
 
 <img src="https://lukedrushell.com/AnimatedButtonKit.png" width="300" height="300">
 
-A Swift package for drawing superellipse shapes added into the standard SwiftUI Shapes type. This package allows you to create smooth, rounded shapes with customizable curvature.
+A Swift package for making buttons which animate on press, eliminating the need for tedious state management. Can easily replace the traditional SwiftUI Button, as it's declaration mirrors it almost exactly. 
 
 ## Features
 
@@ -32,7 +32,7 @@ Using Swift Package Manager
 
 🔗 Enter the repository URL:
 
-https://github.com/LuckDuracell/SwiftSuperellipse
+https://github.com/LuckDuracell/AnimatedButtonKit
 
 ✅ Select the latest version and add it to your project.
 
