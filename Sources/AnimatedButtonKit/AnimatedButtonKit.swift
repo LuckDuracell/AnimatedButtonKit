@@ -22,7 +22,7 @@ public struct AnimatedButton<Label: View>: View {
 
     public init(
         animation: ButtonAnimation,
-        icon: String? = nil,
+        icon: String,
         action: @escaping () -> Void,
         @ViewBuilder label: @escaping (AnyView) -> Label
     ) {
