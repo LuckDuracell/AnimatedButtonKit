@@ -114,18 +114,11 @@ struct ContentView: View {
 |.slide |Slides the passed X amount then back     |_ amount = 5: The distance to slide left/right before sliding back to offset of zero |
 |.squish |Compresses the shape vertically by the passed proportion from 0 to 1|_ amount: The proportion (some value from 0 to 1) that the shape gets vertically compressed before returning to original size. <br><br>  makeWider = false: Determines whether or not the shape should get to sell the visual that the icon is being squished |
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## License
 
 [MIT] MIT License
 
-Copyright (c) [2025] [Luke Drushell]
+Copyright (c) [2026] [Luke Drushell]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
