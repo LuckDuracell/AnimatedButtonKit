@@ -102,8 +102,6 @@ struct ContentView: View {
 
 ## Using Presets
 
-### Examples
-
 ### Animation Preset Values
 
 |🗃️ Preset|🔢 Value|🗂️ Parameters|
