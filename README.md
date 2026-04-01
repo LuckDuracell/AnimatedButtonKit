@@ -113,27 +113,3 @@ struct ContentView: View {
 |.bounce  |Bounces the passed Y amount then back     |_ amount = -5: The distance to slide up/down before sliding back to offset of zero |
 |.slide |Slides the passed X amount then back     |_ amount = 5: The distance to slide left/right before sliding back to offset of zero |
 |.squish |Compresses the shape vertically by the passed proportion from 0 to 1|_ amount: The proportion (some value from 0 to 1) that the shape gets vertically compressed before returning to original size. <br><br>  makeWider = false: Determines whether or not the shape should get to sell the visual that the icon is being squished |
-
-## License
-
-[MIT] MIT License
-
-Copyright (c) [2026] [Luke Drushell]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
