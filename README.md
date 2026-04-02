@@ -1,6 +1,6 @@
 # AnimatedButtonKit
 
-<img src="https://lukedrushell.com/AnimatedButtonKit.png" width="300" height="300">
+<img src="https://lukedrushell.com/AnimatedButtonKit.png" width="300" height="300"> <img src="https://lukedrushell.com/AnimatedButtonKit.gif" width="300" height="300">
 
 A Swift package for making buttons which animate on press, eliminating the need for tedious state management. Can easily replace the traditional SwiftUI Button, as it's declaration mirrors it almost exactly. 
 
