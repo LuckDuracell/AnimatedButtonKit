@@ -110,4 +110,4 @@ struct ContentView: View {
 |.flip  |Rotates 180 degrees on button press     |No parameters needed! |
 |.bounce  |Bounces the passed Y amount then back     |_ amount = -5: The distance to slide up/down before sliding back to offset of zero |
 |.slide |Slides the passed X amount then back     |_ amount = 5: The distance to slide left/right before sliding back to offset of zero |
-|.squish |Compresses the shape vertically by the passed proportion from 0 to 1|_ amount: The proportion (some value from 0 to 1) that the shape gets vertically compressed before returning to original size. <br><br>  makeWider = false: Determines whether or not the shape should get to sell the visual that the icon is being squished |
+|.squish |Compresses the shape vertically by the passed proportion from 0 to 1|_ amount: The proportion (some value from 0 to 1) that the shape gets vertically compressed before returning to original size. <br><br>  makeWider = false: Determines whether or not the shape should get to sell the visual that the icon is being squished by allowing it to briefly increase in width |
